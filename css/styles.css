@@ -18,6 +18,7 @@
     --button-bg-color:#F5F4FA; 
     --active-and-hover-color: #2196F3;
     --white-text-color: #FFFFFF;
+    --regular-customer-brnads-color:#AFB1B8;
 
 }
 
@@ -302,12 +303,14 @@ header{
     margin-bottom: 30px;
 }
 .parent-link-for-social-icons{
-    fill: black;
-}
-.team-soical-links-icons{
-    fill:currentColor;
+    fill: var(--regular-customer-brnads-color);
 }
 
+.parent-link-for-social-icons:hover,
+.parent-link-for-social-icons:focus{
+    fill: var(--main-bg-color);
+    
+}
 .circle-team-soicial-links:hover,
 .circle-team-soicial-links:focus{
     fill: var(--active-and-hover-color);
@@ -328,9 +331,22 @@ header{
     display: flex;
     justify-content:space-evenly;
 }
-.foster-peters-icon{
-    fill: grey;
+
+.regular-customers-icons-svg{
+    fill:var(--regular-customer-brnads-color);
 }
+.regular-customers-icons-svg:hover,
+.regular-customers-icons-svg:focus{
+    fill: var(--active-and-hover-color);
+}
+.regular-customer-rect:hover,
+.regular-customer-rect:focus{
+    stroke: var(--active-and-hover-color);
+}
+
+
+
+
 /* MARK - footer styling */
 .footer{
     background-color: var(--footer-bg-color);
@@ -375,6 +391,37 @@ header{
     color: var(--active-and-hover-color);
 }
 
+.footer-container-one {
+    margin-right: 70px;
+}
+
+.find-is-on-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--address-footer-color);
+    margin-bottom: 20px;
+}
+
+.company-social-link-icons {
+    display: flex;
+
+}
+
+.company-social-link-icons>li {
+    margin-right: 10px;
+}
+
+.social-icon-main-svg {
+    fill: var(--address-footer-color);
+}
+
+.footer-circle-social-icons:hover,
+.footer-circle-social-icons:focus{
+    fill:var(--active-and-hover-color)
+
+}
 
 /* MARK -> PORTFOLIO PAGE */
 .footer-global-container{
@@ -467,24 +514,4 @@ header{
     0px 4px 4px rgba(0, 0, 0, 0.06), 
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.footer-container-one{
-    margin-right: 70px;
-}
-.find-is-on-title{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    color: var(--address-footer-color);
-    margin-bottom: 20px;
-}
-.company-social-link-icons{
-    display: flex;
 
-}
-.company-social-link-icons > li{
-    margin-right: 10px;
-}
-.social-icon-main-svg{
-    fill: white;
-}
