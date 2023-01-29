@@ -55,7 +55,7 @@ header{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    
+ 
    
 }
 .header-container{
@@ -122,7 +122,9 @@ header{
     color: var(--active-and-hover-color);
 }
 
-
+.contact-icon:hover{
+    fill: var(--active-and-hover-color)
+}
 /* MARK - main styling */
 /* MARK - OUR Skills */
 
@@ -219,6 +221,9 @@ header{
     width:270px;
     
 }
+.our-skills-icon{
+    margin-bottom: 30px;
+}
 .what-we-do-title,
 .our-team,
 .portfolio-projects-title,
@@ -273,7 +278,7 @@ header{
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--description-color);
-    padding-bottom: 30px; 
+    margin-bottom: 16px; 
 }
 .our-team-list{
     display: flex;
@@ -288,8 +293,31 @@ header{
     0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 2px 1px rgba(0, 0, 0, 0.2);
 } 
+.team-member-soical-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.team-member-soical-links >li{
+   
+    margin-bottom: 30px;
+}
+/* MARK Regular Customer block */
 
-
+.regular-customer-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+.brand-icons-list{
+    display: flex;
+    justify-content:space-evenly;
+}
+.foster-peters-icon{
+    fill: grey;
+}
 /* MARK - footer styling */
 .footer{
     background-color: var(--footer-bg-color);
@@ -336,7 +364,9 @@ header{
 
 
 /* MARK -> PORTFOLIO PAGE */
-
+.footer-global-container{
+    display: flex;
+}
 .button-choices{
     display: flex;
     justify-content: center;
@@ -423,4 +453,25 @@ header{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
     0px 4px 4px rgba(0, 0, 0, 0.06), 
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.footer-container-one{
+    margin-right: 70px;
+}
+.find-is-on-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--address-footer-color);
+    margin-bottom: 20px;
+}
+.company-social-link-icons{
+    display: flex;
+
+}
+.company-social-link-icons > li{
+    margin-right: 10px;
+}
+.social-icon-main-svg{
+    fill: white;
 }
