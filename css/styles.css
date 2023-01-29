@@ -123,7 +123,7 @@ header{
 }
 
 .contact-icon:hover{
-    fill: var(--active-and-hover-color)
+    fill: var(--active-and-hover-color);
 }
 /* MARK - main styling */
 /* MARK - OUR Skills */
@@ -253,7 +253,7 @@ header{
 }
 
 
-/* MARK - Our tem section */
+/* MARK - Our team section */
 
 .our-team-section{
     background-color: var(--our-team-bg-color);
@@ -301,6 +301,19 @@ header{
    
     margin-bottom: 30px;
 }
+.parent-link-for-social-icons{
+    fill: black;
+}
+.team-soical-links-icons{
+    fill:currentColor;
+}
+
+.circle-team-soicial-links:hover,
+.circle-team-soicial-links:focus{
+    fill: var(--active-and-hover-color);
+}
+
+
 /* MARK Regular Customer block */
 
 .regular-customer-title{
