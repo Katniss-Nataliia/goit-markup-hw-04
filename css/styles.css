@@ -122,7 +122,10 @@ header{
 .contact-detail:focus{
     color: var(--active-and-hover-color);
 }
-
+.contact-icon{
+    fill: currentColor;
+    margin-right: 10px;
+}
 .contact-icon:hover{
     fill: var(--active-and-hover-color);
 }
@@ -132,7 +135,7 @@ header{
 
 
 .hero-section{
-    background: #C4C4C4 url(/images/effectiveSolutionBG.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/effectiveSolutionBG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top:200px;
