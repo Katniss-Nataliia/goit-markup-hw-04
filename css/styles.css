@@ -306,18 +306,23 @@ header{
    
     margin-bottom: 30px;
 }
-.parent-link-for-social-icons{
-    fill: var(--regular-customer-brnads-color);
-}
+.team-social-icons-link{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--regular-customer-brnads-color);
+    border-radius: 50%;
 
-.parent-link-for-social-icons:hover,
-.parent-link-for-social-icons:focus{
-    fill: var(--main-bg-color);
-    
 }
-.circle-team-soicial-links:hover,
-.circle-team-soicial-links:focus{
-    fill: var(--active-and-hover-color);
+.team-social-icons-link-svg{
+    fill: currentColor;
+}
+.team-social-icons-link:hover,
+.team-social-icons-link:focus{
+    background-color: var(--active-and-hover-color);
+    color: var(--main-bg-color);
 }
 
 
@@ -336,19 +341,26 @@ header{
     justify-content:space-evenly;
 }
 
+.regular-customers-icons-link{
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--regular-customer-brnads-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: var(--regular-customer-brnads-color);
+}
+
 .regular-customers-icons-svg{
-    fill:var(--regular-customer-brnads-color);
+    fill:currentColor;
 }
-.regular-customers-icons-svg:hover,
-.regular-customers-icons-svg:focus{
-    fill: var(--active-and-hover-color);
-}
-.regular-customer-rect:hover,
-.regular-customer-rect:focus{
-    stroke: var(--active-and-hover-color);
-}
+.regular-customers-icons-link:hover,
+.regular-customers-icons-link:focus{
+    color: var(--active-and-hover-color);
+    border: 1px solid var(--active-and-hover-color);
 
-
+}
 
 
 /* MARK - footer styling */
@@ -411,20 +423,33 @@ header{
 .company-social-link-icons {
     display: flex;
 
+
 }
 
 .company-social-link-icons>li {
     margin-right: 10px;
 }
 
-.social-icon-main-svg {
-    fill: var(--address-footer-color);
+
+.social-icon-link-svg{
+    width: 44px;
+    height: 44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--address-footer-color);
 }
-
-.footer-circle-social-icons:hover,
-.footer-circle-social-icons:focus{
-    fill:var(--active-and-hover-color)
-
+.svg-social-media-icon{
+    fill: currentColor;
+}
+.social-icon-link-svg:hover,
+.social-icon-link-svg:focus{
+    background-color: var(--active-and-hover-color);
+    color: var(--address-footer-color);
 }
 
 /* MARK -> PORTFOLIO PAGE */
