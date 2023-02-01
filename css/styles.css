@@ -300,11 +300,13 @@ header{
 } 
 .team-member-soical-links{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 .team-member-soical-links >li{
    
-    margin-bottom: 30px;
+   
+    margin-right: 10px;
 }
 .team-social-icons-link{
     width: 44px;
@@ -422,15 +424,15 @@ header{
 
 .company-social-link-icons {
     display: flex;
-
-
 }
 
 .company-social-link-icons>li {
     margin-right: 10px;
 }
 
-
+.company-social-link-icons .last-child{
+    margin-right: 0px;
+}
 .social-icon-link-svg{
     width: 44px;
     height: 44px;
