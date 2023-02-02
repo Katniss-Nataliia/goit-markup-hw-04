@@ -109,6 +109,7 @@ header{
     margin-right: 50px;
     
 }
+
 .contact-detail{
     text-decoration: none;
     color: var(--contact-info-header);
@@ -117,6 +118,8 @@ header{
     letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 32px;
+    display: flex;
+    align-items: center;
 }
 .contact-detail:hover,
 .contact-detail:focus{
@@ -228,6 +231,13 @@ header{
 }
 .our-skills-icon{
     margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: var(--button-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
 }
 .what-we-do-title,
 .our-team,
@@ -303,11 +313,15 @@ header{
     justify-content: center;
     margin-bottom: 30px;
 }
-.team-member-soical-links >li{
-   
-   
+.team-member-soical-links > li{
     margin-right: 10px;
 }
+.team-member-soical-links .last-child-class{
+    margin-right: 0px;
+    
+}
+
+
 .team-social-icons-link{
     width: 44px;
     height: 44px;
@@ -342,6 +356,7 @@ header{
     display: flex;
     justify-content:space-evenly;
 }
+
 
 .regular-customers-icons-link{
     width: 170px;
